@@ -1,0 +1,2 @@
+并发编程网相关信息介绍：
+http://ifeve.com/disruptor-info/
