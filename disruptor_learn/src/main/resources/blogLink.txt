@@ -12,3 +12,7 @@ https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651959957&idx=1&sn=a82bb7
 源码解析
 
 http://brokendreams.iteye.com/blog/2255703
+
+在云栖社区里看到了经典的使用场景:
+两个过程('多'线程)之间的数据交换十分的高效。
+
