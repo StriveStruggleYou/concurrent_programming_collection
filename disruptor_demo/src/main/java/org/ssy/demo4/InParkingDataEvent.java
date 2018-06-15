@@ -7,6 +7,8 @@ public class InParkingDataEvent {
 
   private String carLicense = "";
 
+  private String name = "";
+
   public void setCarLicense(String carLicense) {
     this.carLicense = carLicense;
   }
