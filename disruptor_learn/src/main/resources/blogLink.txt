@@ -23,4 +23,4 @@ http://brokendreams.iteye.com/blog/2255703
 
 2.disruptor 多阶段的DSL语法
 
-3.
+3.线程策略如何选择，不同的场景怎么总结
