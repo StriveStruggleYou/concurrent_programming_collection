@@ -28,3 +28,6 @@ http://brokendreams.iteye.com/blog/2255703
 4.生产者消费者速率如何监控
 
 5.对比，java 框架自带的队列速度区别（参考博客:https://www.cnblogs.com/haiq/p/4112689.html）。
+
+6.测试单生产者，多消费者。多生产者，单消费者。多生产者，多消费者。
+
