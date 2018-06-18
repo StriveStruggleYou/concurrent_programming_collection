@@ -42,6 +42,8 @@ public class DslDemo {
 //    ProducerBarrier producerBarrier =
 //    ringBuffer.createProducerBarrier(consumer3);
 
+
+    //使用dsl语法快速构建
 //    Executor executor = Executors.newCachedThreadPool();
 //
 //    BatchHandler handler1 = new MyBatchHandler1();
