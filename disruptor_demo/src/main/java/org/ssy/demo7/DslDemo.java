@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
  */
 public class DslDemo {
 
-  public static void main(){
+  public static void main() {
     //原生实现方式
 //    Executor executor = Executors.newCachedThreadPool();
 //
@@ -42,6 +42,21 @@ public class DslDemo {
 //    ProducerBarrier producerBarrier =
 //    ringBuffer.createProducerBarrier(consumer3);
 
+    Executor executor = Executors.newCachedThreadPool();
+
+    BatchHandler handler1 = new MyBatchHandler1();
+
+    BatchHandler handler2 = new MyBatchHandler2();
+
+    BatchHandler handler3 = new MyBatchHandler3();
+
+    DisruptorWizard dw = new DisruptorWizard(ENTRY_FACTORY,
+
+        RING_BUFFER_SIZE, executor);
+
+    dw.consumeWith(handler1, handler2).then(handler3);
+    
+    ProducerBarrier producerBarrier = dw.createProducerBarrier();
 
 
   }
