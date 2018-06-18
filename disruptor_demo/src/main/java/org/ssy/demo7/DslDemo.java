@@ -10,6 +10,7 @@ import java.util.concurrent.Executors;
 public class DslDemo {
 
   public static void main(){
+    //原生实现方式
 //    Executor executor = Executors.newCachedThreadPool();
 //
 //    BatchHandler handler1 = new MyBatchHandler1();
